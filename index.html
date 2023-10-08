@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="player__wrapper">
+        <div class="player__block">
+            <h3 class="player__title">
+                Игрок
+            </h3>
+            <p class="text player__score" id="player__score">
+                123
+            </p>
+        </div>
+    
+        <div class="machine__block">
+            <h3 class="machine__title">
+                Компьютер
+            </h3>
+            <p class="text machine__score" id="machine__score">
+                123
+            </p>
+        </div>
+    </div>
+    <div class="title">
+        <h1 class="game__title" id="game__title">
+            Камень, ножницы и бумага
+        </h1>
+        <button class="btn play" id="play">
+            Играть!
+        </button>
+    </div>
+
+    <div class="game__block">
+        <h1 class="game__title hidden" id="game__text">Выбери действие</h1>
+        <div class="btn__block">
+            <button class="btn rock hidden" id="rock">
+                Камень
+            </button>
+            <button class="btn paper hidden" id="paper">
+                бумага
+            </button>
+            <button class="btn scissors hidden" id="scissors">
+                Ножницы
+            </button>
+        </div>
+    </div> 
+
+    <script src="script.js"></script>
+
+    
+</body>
+</html>

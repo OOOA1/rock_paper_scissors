@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: rgb(64, 2, 156);
+    color: #fff;
+
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.btn {
+    width: 150px;
+    height: 80px;
+
+    background-color: rgb(64, 173, 71);
+    color: #fff;
+    font-family: inherit;
+    font-size: 1.5em;
+}
+
+.btn:active {
+    background-color: rgb(106, 222, 114);
+}
+
+.player__wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+
+.player__title {
+    font-size: 2.625em;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    
+    font-size: 2.25em;
+}
+
+.machine__title {
+    font-size: 2.625em;;
+}
+
+.game__title {
+    font-size: 4.5em;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 5% 0;
+}
+
+.game__block {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn__block {
+    display: flex;
+    justify-content: space-around;
+
+    margin-top: 2%;
+}
+
